@@ -1,0 +1,10 @@
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\bin\Debug\Calculator_v02.exe.config
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\bin\Debug\Calculator_v02.exe
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\bin\Debug\Calculator_v02.pdb
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.csproj.AssemblyReference.cache
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.Form1.resources
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.Properties.Resources.resources
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.csproj.GenerateResource.cache
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.csproj.CoreCompileInputs.cache
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.exe
+C:\Users\User\WonyoungCode\Calculator_v02\Calculator_v02\obj\Debug\Calculator_v02.pdb
