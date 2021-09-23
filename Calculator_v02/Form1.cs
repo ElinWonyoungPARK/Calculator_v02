@@ -18,30 +18,36 @@ namespace Calculator_v02
         {
             InitializeComponent();
         }
-
+        public int[] Conversion()
+        {
+            int[] num = new int[2];
+            num[0] = int.Parse(num1.Text);
+            num[1] = int.Parse(num2.Text);
+            return num;
+        }
         private void sumbtn_Click(object sender, EventArgs e)
         {
-            int number1 = Convert.ToInt32(num1.Text);
-            int number2 = Convert.ToInt32(num2.Text);
-            int sum = Sum(number1, number2);
+            //int number1 = Convert.ToInt32(num1.Text);
+            //int number2 = Convert.ToInt32(num2.Text);
+            int sum = Sum(Conversion());
             result.Text = sum.ToString();
         }
-        public int Sum(int num1, int num2)
+        public int Sum(int[] num)
         {
-            int sum = num1 + num2;
+            int sum = num[0] + num[1];
             return sum;
         }
 
         private void subbtn_Click(object sender, EventArgs e)
         {
-            int number1 = Convert.ToInt32(num1.Text);
-            int number2 = Convert.ToInt32(num2.Text);
-            int sub = Sub(number1, number2);
+            //int number1 = Convert.ToInt32(num1.Text);
+            //int number2 = Convert.ToInt32(num2.Text);
+            int sub = Sub(Conversion());
             result.Text = sub.ToString();
         }
-        public int Sub(int num1, int num2)
+        public int Sub(int[] num)
         {
-            int sub = num1 - num2;
+            int sub = num[0] - num[1];
             return sub;
         }
 
