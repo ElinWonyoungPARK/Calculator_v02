@@ -12,6 +12,8 @@ namespace Calculator_v02
 {
     public partial class Form1 : Form
     {
+       // public int number1 = Convert.ToInt32(num1.Text);
+        
         public Form1()
         {
             InitializeComponent();
@@ -21,16 +23,26 @@ namespace Calculator_v02
         {
             int number1 = Convert.ToInt32(num1.Text);
             int number2 = Convert.ToInt32(num2.Text);
-            int sum = number1 + number2;
+            int sum = Sum(number1, number2);
             result.Text = sum.ToString();
+        }
+        public int Sum(int num1, int num2)
+        {
+            int sum = num1 + num2;
+            return sum;
         }
 
         private void subbtn_Click(object sender, EventArgs e)
         {
             int number1 = Convert.ToInt32(num1.Text);
             int number2 = Convert.ToInt32(num2.Text);
-            int sub = number1 - number2;
+            int sub = Sub(number1, number2);
             result.Text = sub.ToString();
+        }
+        public int Sub(int num1, int num2)
+        {
+            int sub = num1 - num2;
+            return sub;
         }
 
     }
