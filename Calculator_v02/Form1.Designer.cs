@@ -62,7 +62,7 @@ namespace Calculator_v02
             this.sumbtn.TabIndex = 2;
             this.sumbtn.Text = "+";
             this.sumbtn.UseVisualStyleBackColor = true;
-            this.sumbtn.Click += new System.EventHandler(this.sumbtn_Click);
+            this.sumbtn.Click += new System.EventHandler(this.sumBtn_Click);
             // 
             // button2
             // 
@@ -73,7 +73,7 @@ namespace Calculator_v02
             this.button2.TabIndex = 3;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.subbtn_Click);
+            this.button2.Click += new System.EventHandler(this.subBtn_Click);
             // 
             // result
             // 
